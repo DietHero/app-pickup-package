@@ -1,0 +1,125 @@
+html, body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    color: #2c3e50;
+    font-size: 18px;
+    letter-spacing: 1px;
+    background-color: #ecf0f1;
+
+}
+
+input, button {
+    font: inherit;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 4rem;
+}
+
+.container {
+    background-color: #ffbe76;
+    width: 30rem;
+    height: 30rem;
+    margin: 2rem;
+    align-content: center;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+    background-color: #30336b;
+    color: white;
+    border-radius: 2rem;
+    width: 15rem;
+    height: 4rem;
+    margin: 1rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.button:hover {
+    color: #30336b;
+    background-color: white;
+}
+
+.input {
+    width: 15rem;
+    height: 4rem;
+    border: 1px solid #30336b;
+    margin: 1rem;
+    border-radius: 2rem;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.input:hover {
+    border: 1px solid white;
+}
+
+.header {
+    font-weight: 700;
+    font-size: 48px;
+    text-align: center;
+    ;
+}
+
+.sub-header {
+    text-align: center;
+}
+
+.screen__second-text {
+    font-weight: 700;
+}
+
+.screen__second {
+    display: none;
+}
+.screen__second-error {
+    display: none;
+}
+
+.screen__third {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 20rem;
+        height: 35rem;
+    }
+
+    .main {
+        margin-top: 0rem
+    }
+
+    .screen__second-error {
+        margin: 1rem 2rem;
+        text-align: center;
+    }
+}
