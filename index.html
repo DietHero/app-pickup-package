@@ -1,12 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+        http-equiv="X-UA-Compatible"
+        content="IE=edge"
+    >
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+    <link
+    rel="preconnect"
+    href="https://fonts.googleapis.com"
+>
+<link
+    rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin
+>
+<link
+    href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
+    rel="stylesheet"
+>
+<link
+    rel="stylesheet"
+    href="./css/style.css"
+>
     <title>Document</title>
 </head>
+
 <body>
-    
+    <div class="main">
+
+        <div class="screen__first">
+            <div class="container">
+                <h1 class="header">Cześć!</h1>
+                <h3 class="sub-header">Miło Cię widzieć! <br> Chcesz odebrać paczkę?</h3>
+                <button class="button button__start">Zaczynamy</button>
+            </div>
+        </div>
+
+        <div class="screen__second ">
+            <div class="container">
+                <div class="screen__second-text">Number telefonu:</div>
+                <input
+                    type="number"
+                    class="input__phone input"
+                    required
+                >
+                <div class="screen__second-text">Kod:</div>
+                <input
+                    type="number"
+                    class="input__code input"
+                    required
+                >
+                <button
+                    class="button button__pick-up "
+                    disabled
+                >Odbierz paczkę</button>
+                <div class="screen__second-text screen__second-error"> Wprowadzone dane są nieprawidłowe!</div>
+            </div>
+
+        </div>
+        <div class="screen__third">
+            <div class=" container">
+                <button class="button button__finish">To wszystko na dziś</button>
+                <button class="button button__next">Odbierz kolejną paczkę</button>
+            </div>
+        </div>
+    </div>
+    <script src="./js/script.js"></script>
 </body>
+
 </html>
