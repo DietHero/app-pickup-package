@@ -43,6 +43,7 @@ buttonStart.addEventListener(
 buttonPickUp.addEventListener(
     'click', () => {
         buttonPickUp.disabled = true;
+        buttonPickUp.innerHTML = '<i class="fa fa-spinner fa-spin"></i>'
         setTimeout(function () {
             buttonPickUp.disabled = false;
             firstScreen.style.display = 'none';
@@ -61,6 +62,7 @@ buttonNext.addEventListener(
         inputNumber.value = '';
         inputCode.value = '';
         buttonPickUp.disabled = true;
+        buttonPickUp.innerHTML = 'Odbierz paczkę'
     }
 )
 
@@ -73,5 +75,6 @@ buttonFinish.addEventListener(
         inputNumber.value = '';
         inputCode.value = '';
         buttonPickUp.disabled = true;
+        buttonPickUp.innerHTML = 'Odbierz paczkę'
     }
 )

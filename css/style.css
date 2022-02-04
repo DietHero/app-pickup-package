@@ -91,6 +91,9 @@ input::-webkit-inner-spin-button {
 
 .sub-header {
     text-align: center;
+    margin-block-start: 0;
+
+
 }
 
 .screen__second-text {
@@ -121,5 +124,8 @@ input::-webkit-inner-spin-button {
     .screen__second-error {
         margin: 1rem 2rem;
         text-align: center;
+    }
+    .sub-header {
+        margin: 0 1rem; 
     }
 }
