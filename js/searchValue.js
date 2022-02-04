@@ -25,12 +25,15 @@ export const searchValue = function () {
         if (singleNumber == valueNumber && singleCode  == valueCode) {
            
             buttonPickUp.disabled = false;
+            buttonPickUp.style.opacity = '100%'
             inputError.style.display = 'none';
             break;
         }
         else {
             buttonPickUp.disabled = true;
+            buttonPickUp.style.opacity = '50%'
             inputError.style.display = 'block';
+            
         }
     }
 }

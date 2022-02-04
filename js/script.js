@@ -63,6 +63,7 @@ buttonNext.addEventListener(
         inputCode.value = '';
         buttonPickUp.disabled = true;
         buttonPickUp.innerHTML = 'Odbierz paczkę'
+        buttonPickUp.style.opacity = '50%'
     }
 )
 
@@ -76,5 +77,6 @@ buttonFinish.addEventListener(
         inputCode.value = '';
         buttonPickUp.disabled = true;
         buttonPickUp.innerHTML = 'Odbierz paczkę'
+        buttonPickUp.style.opacity = '50%'
     }
 )

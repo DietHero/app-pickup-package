@@ -67,6 +67,10 @@ input::-webkit-inner-spin-button {
     color: #30336b;
     background-color: white;
 }
+.button__pick-up {
+    opacity: 50%;
+    ;
+}
 
 .input {
     width: 15rem;
